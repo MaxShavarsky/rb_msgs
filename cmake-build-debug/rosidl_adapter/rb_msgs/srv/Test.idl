@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from rb_msgs/srv/Test.srv
+// generated code does not contain a copyright notice
+
+
+module rb_msgs {
+  module srv {
+    struct Test_Request {
+      int16 a;
+
+      int16 b;
+    };
+    struct Test_Response {
+      int16 sum;
+
+      string message;
+    };
+  };
+};

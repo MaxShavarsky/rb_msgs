@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from rb_msgs/action/Test.action
+// generated code does not contain a copyright notice
+
+
+module rb_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      " Goal")
+    struct Test_Goal {
+      int64 a;
+
+      int64 b;
+    };
+    struct Test_Result {
+      @verbatim (language="comment", text=
+        " Result")
+      int64 sum;
+    };
+    struct Test_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

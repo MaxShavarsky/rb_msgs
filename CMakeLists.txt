@@ -25,8 +25,11 @@ find_package(sensor_msgs REQUIRED)
 
 set (ACT "action/Test.action")
 
+set(SRV "srv/Test.srv")
+
 rosidl_generate_interfaces(${PROJECT_NAME}
         ${ACT}
+        ${SRV}
         DEPENDENCIES
         builtin_interfaces
         std_msgs

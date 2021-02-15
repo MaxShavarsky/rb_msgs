@@ -1,0 +1,7 @@
+{
+  "package_name": "rb_msgs",
+  "non_idl_tuples": [
+    "/home/max/development/rb_ws/src/rb_msgs:action/Test.action",
+    "/home/max/development/rb_ws/src/rb_msgs:srv/Test.srv"
+  ]
+}
