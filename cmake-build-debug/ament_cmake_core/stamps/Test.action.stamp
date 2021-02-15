@@ -1,8 +1,0 @@
-# Goal
-int64 a
-int64 b
----
-# Result
-int64 sum
----
-# Feedback
