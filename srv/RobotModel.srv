@@ -1,0 +1,5 @@
+float64[] arm_state
+---
+string[] link_names
+string[] mesh_paths
+geometry_msgs/Pose[] pose

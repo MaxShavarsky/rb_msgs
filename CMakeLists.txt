@@ -23,12 +23,16 @@ find_package(geometry_msgs REQUIRED)
 find_package(trajectory_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 
-set (ACT "action/Test.action")
+set(ACT "action/Test.action")
 
-set(SRV "srv/Test.srv")
+set(MSG "msg/RobotState.msg")
+
+set(SRV "srv/Test.srv"
+        "srv/RobotModel.srv")
 
 rosidl_generate_interfaces(${PROJECT_NAME}
         ${ACT}
+        ${MSG}
         ${SRV}
         DEPENDENCIES
         builtin_interfaces
