@@ -25,10 +25,15 @@ find_package(sensor_msgs REQUIRED)
 
 set(ACT "action/Test.action")
 
-set(MSG "msg/RobotState.msg")
+set(MSG "msg/RobotState.msg"
+        "msg/AuboError.msg"
+        )
 
 set(SRV "srv/Test.srv"
-        "srv/RobotModel.srv")
+        "srv/RobotModel.srv"
+        "srv/GoHome.srv"
+        "srv/Move.srv"
+        )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
         ${ACT}
