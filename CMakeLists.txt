@@ -27,12 +27,24 @@ set(ACT "action/Test.action")
 
 set(MSG "msg/RobotState.msg"
         "msg/AuboError.msg"
+
+        "msg/Analog.msg"
+        "msg/Digital.msg"
+        "msg/GoalPoint.msg"
+        "msg/IOState.msg"
+        "msg/JointPose.msg"
+        "msg/TrajectoryPoint.msg"
+        "msg/Position.msg"
+        "msg/Orientation.msg"
+        "msg/Waypoint.msg"
         )
 
 set(SRV "srv/Test.srv"
         "srv/RobotModel.srv"
         "srv/GoHome.srv"
         "srv/Move.srv"
+        "srv/GetIK.srv"
+        "srv/MoveLine.srv"
         )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
