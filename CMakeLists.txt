@@ -37,6 +37,9 @@ set(MSG "msg/RobotState.msg"
         "msg/Position.msg"
         "msg/Orientation.msg"
         "msg/Waypoint.msg"
+        "msg/RobotEvent.msg"
+        "msg/ToolIO.msg"
+        "msg/ToolIOStatus.msg"
         )
 
 set(SRV "srv/Test.srv"
