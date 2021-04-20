@@ -1,0 +1,8 @@
+string port
+uint8 slave_address
+uint8 function_code
+uint8[] command
+uint8[] crc
+---
+uint8[] response
+string message

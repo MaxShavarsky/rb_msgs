@@ -48,6 +48,7 @@ set(SRV "srv/Test.srv"
         "srv/Move.srv"
         "srv/GetIK.srv"
         "srv/MoveLine.srv"
+        "srv/Gripper.srv"
         )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
