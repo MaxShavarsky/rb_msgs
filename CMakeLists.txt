@@ -23,7 +23,9 @@ find_package(geometry_msgs REQUIRED)
 find_package(trajectory_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 
-set(ACT "action/Test.action")
+set(ACT "action/Test.action"
+        "action/ComputerVision.action"
+        )
 
 set(MSG "msg/RobotState.msg"
         "msg/AuboError.msg"
@@ -40,6 +42,7 @@ set(MSG "msg/RobotState.msg"
         "msg/RobotEvent.msg"
         "msg/ToolIO.msg"
         "msg/ToolIOStatus.msg"
+        "msg/DetectedObject.msg"
         )
 
 set(SRV "srv/Test.srv"

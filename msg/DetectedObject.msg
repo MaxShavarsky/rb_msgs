@@ -1,0 +1,3 @@
+geometry_msgs/Pose origin
+float64 confidence
+string class_name
