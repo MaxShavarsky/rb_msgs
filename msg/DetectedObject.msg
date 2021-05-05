@@ -1,3 +1,4 @@
 geometry_msgs/Pose origin
+AlignedBoundingBox aligned_bounding_box
 float64 confidence
 string class_name

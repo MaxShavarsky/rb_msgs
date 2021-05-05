@@ -27,7 +27,9 @@ set(ACT "action/Test.action"
         "action/ComputerVision.action"
         )
 
-set(MSG "msg/RobotState.msg"
+set(MSG
+        "msg/AlignedBoundingBox.msg"
+        "msg/RobotState.msg"
         "msg/AuboError.msg"
 
         "msg/Analog.msg"
